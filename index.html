@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="final.css" />
+    <script href="jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+</head>
+
+<body>
+
+    <!--NAVIGATION BAR AND LOGO-->
+    <header id="pagetop">
+        <div id="logoBG">
+            <img id="logo" class="img-fluid" src="AttucktionLogo.png" />
+        </div>
+        <nav class="subheader text-center">
+            <a href="#home" class="px-4">Startseite</a>
+            <a href="#project" class="px-4">Das Projekt</a>
+            <a href="#styleguide" class="px-4">Styleguide</a>
+            <a href="#aboutus" class="px-4">Über uns</a>
+        </nav>
+    </header>
+
+    <div class="scrolling-wrapper-flexbox">
+        <!--HOME PRESENTATION-->
+        <section class="card flex-item" id="home">
+            <div class="container mb-12">
+                <div id="intro">Erleben Sie mit Attrucktion eine Tour, um ihre
+                    Lieblingsstädte zu entdecken, während Sie das beste Essen der Stadt genießen.
+                </div>
+            </div>
+            <div class="container mb-12 aspectsBackground" style="width: 65%" style="justify-content: center">
+                <div class="row text-center align-items aspects">
+
+                    <div class="aspectsColumn flex-item">
+                        <img class="py-2 img-fluid" src="entdecken.png" width="250vw" height="auto" />
+                        <br />
+                        <h2>Entecken</h2>
+                    </div>
+                    <div class=" aspectsColumn flex-item">
+                        <img class="py-2 img-fluid" src="essen.png" width="250vw" height="auto" />
+                        <br />
+                        <h2>Essen</h2>
+                    </div>
+                    <div class=" aspectsColumn flex-item">
+                        <img class="py-2 img-fluid" src="lernen.png" width="250vw" height="auto" />
+                        <br />
+                        <h2>Lernen</h2>
+                    </div>
+                </div>
+            </div>
+            <div id="videoDescription" class="container mb-12 justify-content-center text-center"> <strong>So könnte
+                    Ihr Besuch bei
+                    uns
+                    aussehen</strong></div>
+            <div class="video">
+                <video controls>
+                    <source src="Showreel.mp4" type="video/mp4">
+                </video>
+            </div>
+        </section>
+        <!--PROJECT DESCRIPTIONS-->
+        <section class="card flex-item" id="project">
+            <div class="container">
+                <div class="topic flex-item text-center">
+                    <p class="text-gradient">Was ist Attrucktion?</p>
+                </div>
+                <p class="description flex-item">
+                    Über das Wesen von Atrucktion: <br>
+
+                    Unser Service stellt eine Möglichkeit für ein Erlebnis dar, das Abenteuer und Lernen vereint: <br>
+                    In unserem Foodtruck fährt man durch die Stadt um Sehenswürdigkeiten und gute Lokale zu besuchen.
+                    Dabei lernt man nicht nur die Stadt mit ihrer Insider-Szene kennen, sondern bekommt zudem bei jedem
+                    Stop
+                    kostenfreie
+                    Proben
+                    dort servierter Gerichte. <br>
+                    Das bedeutet folgendes... <br>
+
+                    Unser Service ist: <br>
+                    Eine Entdeckungsreise der kulinarischen Seele einer Stadt.
+                </p>
+                <div class="topic flex-item text-center">
+                    <p class="text-gradient">Beschreibung des Services</p>
+                </div>
+                <p class="description flex-item">
+                    Der Kunde erlebt den Service folgendermaßen:
+                    Zunächst bucht er den Service und kann am entsprechenden Datum zu einer beliebigen Stelle in den
+                    Truck einsteigen.Im Foodtruck kann er dann ein Mal die gesamte Route durchfahren, bevor er von den
+                    Mitarbeitern informiert wird, dass seine Fahrt nun zu Ende ist. Durch dieses System ist der Nutzer
+                    sehr frei in der Auswahl, wann das Programm für ihn beginnen bzw. enden sollte. <br />
+                    Ist der Kunde im Truck angelangt wird er an seinen Platz gebracht und in die Tablet-Anwendung
+                    eingewiesen.
+                    Auf der Fahrt zur nächsten Sehenswürdigkeit kann der Nutzer über dieses Tablet vorab Informationen
+                    zur Attraktion erhalten. Sobald der Truck dort angekommen ist, wird gehalten, so dass die Mitfahrer
+                    Zeit haben, die Sehenswürdigkeit zu betrachten. Natürlich wird auch bei den Lokalen gehalten, wo
+                    die Kunden eine Geschmacksprobe eines dort servierten Gerichtes bekommen. Durch die Verteilung von
+                    kleinen Essensmengen über die ganze Fahrt kann ein schlussendliches Sättigungsgefühl hervorgerufen
+                    werden, ohne dass die Kunden bereits beim dritten Halt zu satt sind und einen Teil des bezahlten
+                    Services ausfallen lassen müssen.
+                    Die Mitfahrer haben bei jedem Stopp die Möglichkeit auszusteigen, spätestens wenn der Stopp wieder
+                    erreicht wird, an dem der Kunde erstmalig eingestiegen ist, wird er darum gebeten den Truck zu
+                    verlassen.
+                </p>
+                <div class="topic flex-item text-center">
+                    <p class="text-gradient">Ist dieser Service für mich geeignet?</p>
+                </div>
+                <p class="description flex-item">
+                    Für Touristen, die die Stadt erleben und ein angenehmes Essen genießen möchten, ist Attrucktion die
+                    Stadttour, die ein interessantes und spannendes Erleben der Stadt anbietet. Im Gegensatz zu
+                    üblichen Stadtrundfahrten
+                    schließt dieser Service zusätzlich ausgewählte Restaurants in die Tour mit ein und lässt den Kunden
+                    von den dort servierten Gerichten probieren.
+                </p>
+                <div class="topic flex-item text-center">
+                    <p class="text-gradient">Beschreibung der Anwendungsidee<p>
+                </div>
+                <p class="description flex-item">
+                    Auf dem Interface wird eine Karte angezeigt, auf der Verschiedene Lokale und Sehenswürdigkeiten als
+                    Icons angezeigt werden. Zudem Zeigt diese Karte die Route der Rundfahrt. Klickt man auf ein
+                    Restaurant erscheint ein Slider an der linken Seite, der Alle nötigen Informationen angezeigt
+                    werden. So kann der Nutzer Öffnungszeiten, Kontakt und Anschrift des Restaurants sowie Name und
+                    Bild des angebotenen Gerichts sehen. Beim anklicken eines Icons für eine Sehenswürdigkeit wird ein
+                    Audioguide abgespielt, der die Geschichte und weitere Informationen zur jeweiligen Attraktion
+                    angezeigt.
+                </p>
+                <div class="topic flex-item text-center">
+                    <p class="text-gradient">Beziehung zwischen Mensch und Anwendung<p>
+                </div>
+                <p class="description flex-item">
+                    Das Interface dient dem Nutzer lediglich dazu, Informationen nachschauen zu können und kann nicht
+                    im App-Store erworben werden. Es existiert lediglich im Foodtruck selbst.
+                    Die tatsächliche Benutzung dieser Anwendung ist also sehr marginal. So reicht meistens ein Blick
+                    oder einmaliges Tippen, um den gewünschten Effekt auftreten und damit das Interface seinen Zweck
+                    erfüllen zu lassen.
+                    Dadurch, dass der Kunde extrem wenig mit der Anwendung interagieren muss, um an die gewünschten
+                    Informationen zu kommen, entsteht keine Abhängigkeit des Nutzers vom Interface.
+                    Das ist für unseren Service sehr wichtig, denn so wird seine Freiheit nicht eingeschränkt,
+                    hinsichtlich dessen, dass der Mitfahrer seine eigene Aufmerksamkeit auf andere Dinge, wie die
+                    Sehenswürdigkeiten etc. lenken kann.
+                </p>
+            </div>
+        </section>
+        <section class="card flex-item" id="styleguide">
+            <img src="styleguide.png" width="100%" height="auto" />
+        </section>
+        <!--ABOUT US-->
+        <section class="card flex-item" id="aboutus">
+            <div class="container mb-12">
+                <div class="row text-center">
+                    <div class="column ">
+                        <img class="avatar py-2 img-fluid" src="Inga.jpg">
+                        <div class=" px-4">
+                            <div class="names">
+                                <p class="text-gradient">Inga Bauer</p>
+                            </div>
+                            <p class="aboutDescription">
+                                Dürfte ich Bilder meiner Katze hier einfügen, hätte ich dies schon längst getan. Neben
+                                meinem
+                                Interactive Media Design Studium ernähre ich mich hauptsächlich von Kaffe und
+                                Sarkasmus. Bis zum
+                                jetzigen Alter von 22 Jahren habe ich Vorlieben für die Autoszene entwickelt und gehe
+                                für den
+                                Muskelaufbau nur noch ins Fitnessstudio.
+                                Dennoch war Design immer ein großer Bestandteil meines Lebens, weshalb ich euch mit
+                                meinen
+                                zwei Jungs unser erstes Projekt freudig vorstellen möchte.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img class="avatar py-2 img-fluid" src="Nicholas.jpg" />
+                        <div class="px-4">
+                            <div class="names">
+                                <p class="text-gradient">Nicholas Konrad</p>
+                            </div>
+                            <p class="aboutDescription">
+                                Urpsrünglich aus München; Dort geboren, aufgewachsen und mit 18 Jahren das Abitur
+                                abgeschlossen.
+                                Aufgrund des Interesses und privater Beschäftigung mit Software und Gestaltung
+                                anschließend auf der
+                                Suche nach einem Studium.
+                                Im Alter von 19 Jahren nach Darmstadt gezogen, um das perfekt passende Studiumsangebot
+                                <i>Interactive
+                                    Media Design</i> der h_da wahrzunehmen. Im aktuellen Alter von 20 rückt das Ende
+                                des ersten
+                                Semesters immer näher. In dieser Semesterarbeit sollten wir einen Foodtruck
+                                konzeptionieren und das
+                                Konzept anhand dieser Webpage und eines Interfaces veranschaulichen.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <img class="avatar py-2 img-fluid" src="Amos.jpg" />
+                        <div class="px-4">
+                            <div class="names">
+                                <p class="text-gradient">Amos Aulbach</p>
+                            </div>
+                            <p class="aboutDescription">
+                                Mein Name ist Amos Aulbach und ich bin 19 Jahre alt. Nach
+                                dem Abitur habe ich zunächst eine Steinmetzausbildung
+                                angefangen, die ich abbrach, um an der Hochschule Darmstadt
+                                (Campus Dieburg) den Studiengang <i>Interactive
+                                    Media Design</i> zu studieren. Zusammen mit Inga Bauer und Nicholas Konrad
+                                arbeite ich im Rahmen des Seminars Design an dem Projekt
+                                "Attrucktion", über das Sie auf dieser Webseite mehr erfahren
+                                können. Hierbei arbeite ich vor allem am graphischen Design
+                                und Management, aber auch in den Bereichen Programmierung
+                                und Marketing.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
